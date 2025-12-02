@@ -1,0 +1,56 @@
+.network-scanner {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.network-scanner h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.network-scanner button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.network-scanner button:hover {
+  background-color: #0056b3;
+}
+
+.network-scanner button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.network-scanner .error {
+  color: red;
+  margin-top: 10px;
+}
+
+.network-scanner h3 {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.network-scanner ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.network-scanner ul li {
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.network-scanner ul li:last-child {
+  border-bottom: none;
+}
+
